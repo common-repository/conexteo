@@ -1,0 +1,43 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+table#models {
+    margin-top: 21px;
+}
+
+table#models .notice-error {
+    margin: 14px;
+    padding: 14px;
+}
+
+.conexteo-btn {
+    color: #34495e;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 7px;
+}
+
+.conexteo-btn.edit {
+    color: #34495e;
+}
+
+.conexteo-btn.edit:hover {
+    color: #ecf0f1;
+}
+
+.conexteo-btn.delete {
+    color: #e74c3c;
+}
+
+.conexteo-btn.delete:hover {
+    color: #ecf0f1;
+}
+
+#conexteo_send_message {
+    margin: 40px 0px;
+}
